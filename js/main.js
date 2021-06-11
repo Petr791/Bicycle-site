@@ -71,8 +71,8 @@ ibg();
 // topNubex position: fixed;
 $(function() {
     $(window).scroll(function() {
-        if ($(this).scrollTop() != 0) {
-            $('#topnubex').fadeIn();
+        if ($(this).scrollTop() > 600) {
+            $('#topnubex').fadeIn(0);
         } else {
             $('#topnubex').fadeOut();
         }

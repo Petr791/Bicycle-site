@@ -453,12 +453,18 @@ h6 {
 /**/
 
 .topnubex {
+    display: none;
     z-index: 10;
 }
 
 .topnubex img {
     width: 40px;
     height: 40px;
+}
+
+.topnubex img:hover {
+    background-color: #3a8669;
+    border-radius: 50%;
 }
 
 #topnubex {
