@@ -459,14 +459,19 @@ h6 {
 .topnubex img {
     width: 40px;
     height: 40px;
-    /* background-color: #06817779; */
-    border-radius: 50%;
 }
 
 #topnubex {
     position: fixed;
     right: 45px;
     bottom: 45px;
+}
+
+@media (max-width: 450px) {
+    #topnubex {
+        right: 12px;
+        bottom: 12px;
+    }
 }
 
 
