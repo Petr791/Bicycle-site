@@ -462,7 +462,7 @@ h6 {
     height: 40px;
 }
 
-.topnubex img:hover {
+.topnubex img:active {
     background-color: #3a8669;
     border-radius: 50%;
 }
