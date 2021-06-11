@@ -449,6 +449,29 @@ h6 {
     left: -5px;
 }
 
+
+/**/
+
+.topnubex {
+    z-index: 10;
+}
+
+.topnubex img {
+    width: 40px;
+    height: 40px;
+    /* background-color: #06817779; */
+    border-radius: 50%;
+}
+
+#topnubex {
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+}
+
+
+/* */
+
 .generation {
     padding: 120px 0;
     background-color: #f7f7f7;
@@ -508,6 +531,12 @@ h6 {
 @media (max-width: 1500px) {
     .block__text_j::after {
         margin: 15px auto 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .block__text_j {
+        line-height: 30px;
     }
 }
 

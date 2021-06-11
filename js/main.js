@@ -15,6 +15,7 @@ $(function() {
     })
 
 
+
     //Fixed Header 
 
     checkScroll(scrollPos, introH);
@@ -66,6 +67,20 @@ function ibg() {
 }
 
 ibg();
+
+// topNubex position: fixed;
+$(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() != 0) {
+            $('#topnubex').fadeIn();
+        } else {
+            $('#topnubex').fadeOut();
+        }
+    });
+    $('#topnubex').click(function() {
+        $('body,html').animate({ scrollTop: 0 }, 700);
+    });
+});
 
 
 //Sliders
